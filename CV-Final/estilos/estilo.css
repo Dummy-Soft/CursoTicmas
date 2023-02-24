@@ -5,7 +5,7 @@ Encabezado del proyecto
     padding: 5px 5px 5px 5px;
     border: 1px solid #000000;    
     background-color: #d1cfcb;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     overflow: auto;
 }
 #textoencabezado {
@@ -15,10 +15,34 @@ Encabezado del proyecto
     text-align: center;
 }
 /**
-Cuerpo
+Cuerpo Completo
 **/
 body{
     background-color: #80a3ad;
 }
 
-
+/**
+Columnas
+**/
+.datospersonales{
+    position:absolute;
+	width:100px;
+	left:10px;
+	top:100px;
+    border: 1px solid #000000;
+    background-color: #84b99a;
+}
+.sobremi{
+    margin-left:120px;
+	margin-right:120px;
+    border: 1px solid #000000;
+    background-color: #a7b7d8;
+}
+.estudiosexperiencia{
+    position:absolute;
+	width:100px;
+	left:10px;
+	top:100px;
+    border: 1px solid #000000;
+    background-color: #b98484;
+}
