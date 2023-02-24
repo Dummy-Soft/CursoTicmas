@@ -1,17 +1,18 @@
-/** 
-Fuente
-**/
-*{
-    font-family: 'Ubuntu', sans-serif;
-}
 /**
 Encabezado del proyecto
 **/
 .encabezado{
-    padding: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
     border: 1px solid #000000;    
     background-color: #d1cfcb;
     margin-bottom: 30px;
+    overflow: auto;
+}
+#textoencabezado {
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
 }
 /**
 Cuerpo
@@ -19,3 +20,5 @@ Cuerpo
 body{
     background-color: #80a3ad;
 }
+
+
