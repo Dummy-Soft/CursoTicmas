@@ -1,0 +1,21 @@
+/** 
+Fuente
+**/
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+/**
+Encabezado del proyecto
+**/
+.encabezado{
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #000000;    
+    background-color: #d1cfcb;
+    margin-bottom: 30px;
+}
+/**
+Cuerpo
+**/
+body{
+    background-color: #80a3ad;
+}
