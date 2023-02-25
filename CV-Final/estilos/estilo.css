@@ -24,25 +24,78 @@ body{
 /**
 Columnas
 **/
-.datospersonales{
-    position:absolute;
-	width:100px;
-	left:10px;
-	top:100px;
-    border: 1px solid #000000;
-    background-color: #84b99a;
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.sobremi{
-    margin-left:120px;
-	margin-right:120px;
-    border: 1px solid #000000;
-    background-color: #a7b7d8;
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Alata', sans-serif;
 }
-.estudiosexperiencia{
-    position:absolute;
-	width:100px;
-	left:10px;
-	top:100px;
-    border: 1px solid #000000;
-    background-color: #b98484;
+
+.seccion-oscura {
+    color: #f9f8eb;
+    background-color: #155e63;
+}
+
+.seccion-clara {
+    color: #155e63;
+    background-color: #f9f8eb;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Alata', sans-serif;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+}
+/* Habilidades */
+.habilidades {
+    padding: 40px 40px 60px 40px;
+}
+
+.habilidades .columna {
+    padding: 20px;
+    border: 2px solid #1e868d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.habilidades .columna:hover {
+    color: #f9f8eb;
+    background-color: #1e868d;
+}
+
+.habilidades i {
+    font-size: 2.5rem;
+    color: #5ae4a7;
+    background-color: #155e63;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.habilidades-titulo {
+    font-size: 23px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
 }

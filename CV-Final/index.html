@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="estilos/estilo.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <title>Proyecto Front-Back End: Curriculum Vitae en HTML</title>
 </head>
 <body>
@@ -18,15 +20,52 @@
         <img src="Imagenes/imagen.jpg" alt="Foto" height="180px" width="150px" style="float:left;"> 
         <p id= textoencabezado>Carlos Alberto Alonso</p>
     </div>
-    <div class="datospersonales">
-
-    </div>
-    <div class="sobremi">
-        
-    </div>
-    <div class="estudiosexperiencia">
-        
-    </div>
+    <!--Habilidades-->
+    <section id="habilidades" class="habilidades seccion-clara">
+        <div class="container text-center">
+          <div class="row">
+            <!--Desarrollo web-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-laptop"></i>
+              <p class="habilidades-titulo seccion-titulo">Desarrollo Web</p>
+              <p class="seccion-texto">TICMAS ACADEMY</p>
+              <p class="seccion-texto">CURSO Introducción | Primeros pasos en Front-end // Ene 2023</p>
+              <p class="seccion-texto">INSTITUTO NACIONAL DE TECNOLOGÍA INDUSTRIAL (INTI) | ARGENTINA PROGRAMA </p>
+              <p class="seccion-texto">CURSO Introducción a la programación #SéProgramar // Oct 2022</p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-success">HTML</span>
+                <span class="badge text-bg-success">CSS</span>
+                <span class="badge text-bg-success">JavaScript</span>
+              </div>
+            </div>
+            <!--Producción de radio y TV-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-broadcast-pin"></i>
+              <p class="habilidades-titulo seccion-titulo">Producción de Radio y TV</p>
+              <p class="seccion-texto">INSTITUTO SUPERIOR DE ENSEÑANZA RADIOFÓNICA (I.S.E.R.)</p>
+              <p class="seccion-texto">Productora y directora para radio y TV. // Mar 2012 - Nov 2014</p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-success">Photoshop</span>
+                <span class="badge text-bg-success">Illustrator</span>
+                <span class="badge text-bg-success">Premiere</span>
+                <span class="badge text-bg-success">After Effects</span>
+              </div>
+            </div>
+            <!--Periodismo deportivo-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-newspaper"></i>
+              <p class="habilidades-titulo seccion-titulo">Periodismo Deportivo</p>
+              <p class="seccion-texto">INSTITUTO SUPERIOR DE PERIODISMO DEPORTIVO (I.S.Pe.D)</p>
+              <p class="seccion-texto">Técnico superior en periodismo deportivo. // Mar 2009 - Nov 2011</p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-success">Redacción</span>
+                <span class="badge text-bg-success">Edición</span>
+                <span class="badge text-bg-success">Paquete Office</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 </body>
 </html>
