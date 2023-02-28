@@ -44,3 +44,6 @@ for (let i = 0; collection.length; i++) {
     collection[i].style.color = "white";
 }
 
+
+
+
