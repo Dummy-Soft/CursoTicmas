@@ -1,7 +1,6 @@
 /**Encabezado del proyecto**/
 .encabezado{
     padding: 5px 5px 5px 5px;
-    border: 1px solid #000000;    
     background-color: #d1cfcb;
     overflow: auto;
 }
@@ -90,12 +89,13 @@ section{
 /* Ventana */
 .contenido-vent {
     position: relative; 
-    background-color: white;
+    background-color: #d1cfcb;
     margin: auto; 
     padding: 20px;
     width: 60%;
     animation-name: animarsuperior;
     animation-duration: 0.5s;
+    text-align: left;
 }
   
 /* Animación */
@@ -131,7 +131,17 @@ section{
 }
 .experienciaYreferencias {
     padding: 5px 5px 5px 5px;
-    border: 1px solid #000000;    
     background-color: #d1cfcb;
     overflow: auto;
+    text-align: center;
+}
+.boton {
+    background:#d1cfcb;
+    font-weight: bold;
+}
+.boton:hover,
+.boton:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
