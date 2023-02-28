@@ -4,7 +4,34 @@
 //let resultado = numero1+numero2;
 //console.log("La Suma de los numeros es: "+resultado);
 
+/** 
 document.getElementById("boton").onclick = function() {
     console.log("Leemos el clik al boton");
-    document.getElementById("demo").innerHTML = "Primer Evento en JavaScript";
+    document.getElementById("demo").innerHTML = "Primer Evento en JavaScript (Click en boton directo)";
 }
+*/
+
+/**
+document.addEventListener('click', function(){
+    console.log("eventlistener ON")
+    document.getElementById("demo").innerHTML = "Segundo Evento en JavaScript (Click en cualquier parte)";
+})
+ */
+
+document.getElementById("boton").addEventListener('click', function(){
+    console.log("eventlistener ON")
+    document.getElementById("demo").innerHTML = "Tercer Evento en JavaScript (Click en boton eventlistener)";
+})  
+
+document.getElementById("boton_color").addEventListener('click', function(){
+    document.body.style.backgroundColor = '#FF0000'
+})
+
+document.getElementById("boton_default").addEventListener('click', function(){
+    document.body.style.backgroundColor = 'blue'
+    document.getElementById("demo").innerHTML = "Cambio de Contenido en HTML con JavaScript";
+    console.log("Todo como estaba")
+})
+
+
+
