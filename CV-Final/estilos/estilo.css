@@ -14,18 +14,11 @@
     align-items: center;    
 }    
 /**Cuerpo Completo**/
-body{
-    background-color: #155e63;
-}
 section{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-h1 {
-    font-size: 2.5rem;
-    font-family: 'Alata', sans-serif;
 }
 .seccion-oscura {
     color: #f9f8eb;
@@ -111,16 +104,29 @@ h1 {
     to {top:0; opacity:1}
 }
 
-/* Botón cerrar */
-.close {
+/* Botónes de cerrar */
+.cerrarExp {
     color: black;
     float: right;
     font-size: 30px;
     font-weight: bold;
 }
-.close:hover,
-.close:focus {
+.cerrarExp:hover,
+.cerrarExp:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
 }
+.cerrarRef {
+    color: black;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+.cerrarRef:hover,
+.cerrarRef:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
