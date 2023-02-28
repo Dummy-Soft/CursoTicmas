@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;    
 }    
-/**Cuerpo Completo**/
+/**Seccion de Datos Personales, Sobre Mi y Educacion**/
 section{
     display: flex;
     flex-direction: column;
@@ -25,8 +25,8 @@ section{
     background-color: #155e63;
 }
 .seccion-clara {
-    color: #155e63;
-    background-color: #f9f8eb;
+    color: #070707;
+    background-color: #d1cfcb;
 }
 .seccion-titulo {
     font-size: 2rem;
@@ -39,7 +39,7 @@ section{
 }
 /** Columnas **/
 .columnas {
-    padding: 5px 40px 60px 5px;
+    padding: 5px 5px 5px 5px;
 }
 .columnas .columna {
     padding: 20px;
@@ -129,4 +129,9 @@ section{
     text-decoration: none;
     cursor: pointer;
 }
-
+.experienciaYreferencias {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #000000;    
+    background-color: #d1cfcb;
+    overflow: auto;
+}
