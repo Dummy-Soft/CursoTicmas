@@ -1,6 +1,4 @@
-/**
-Encabezado del proyecto
-**/
+/**Encabezado del proyecto**/
 .encabezado{
     padding: 5px 5px 5px 5px;
     border: 1px solid #000000;    
@@ -15,51 +13,41 @@ Encabezado del proyecto
     justify-content: center;
     align-items: center;    
 }    
-/**
-Cuerpo Completo
-**/
+/**Cuerpo Completo**/
 body{
     background-color: #155e63;
 }
-
 section{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
 h1 {
     font-size: 2.5rem;
     font-family: 'Alata', sans-serif;
 }
-
 .seccion-oscura {
     color: #f9f8eb;
     background-color: #155e63;
 }
-
 .seccion-clara {
     color: #155e63;
     background-color: #f9f8eb;
 }
-
 .seccion-titulo {
     font-size: 2rem;
     padding: 15px 0;
     font-family: 'Alata', sans-serif;
 }
-
 .seccion-texto {
     font-size: 1.2rem;
     font-family: 'Roboto Slab', serif;
 }
-
 /** Columnas **/
 .columnas {
     padding: 5px 40px 60px 5px;
 }
-
 .columnas .columna {
     padding: 20px;
     border: 2px solid #1e868d;
@@ -69,12 +57,10 @@ h1 {
     justify-content: space-evenly;
     transition: all 0.2s ease-in;
 }
-
 .columnas .columna:hover {
     color: #f9f8eb;
     background-color: #1e868d;
 }
-
 .columnas i {
     font-size: 2.5rem;
     color: #5ae4a7;
@@ -82,19 +68,59 @@ h1 {
     padding: 8px 19px;
     border-radius: 50%;
 }
-
 .columnas-titulo {
     font-size: 23px;
     font-weight: bold;
     margin: 10px 0;
 }
-
 .badges-contenedor {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
 }
-
 .badge {
     margin: 5px;
+}
+/* Fondo ventana: negro con opacidad al 50% */
+.ventana {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 200px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.5); 
+}
+/* Ventana */
+.contenido-vent {
+    position: relative; 
+    background-color: white;
+    margin: auto; 
+    padding: 20px;
+    width: 60%;
+    animation-name: animarsuperior;
+    animation-duration: 0.5s;
+}
+  
+/* Animación */
+@keyframes animarsuperior {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* Botón cerrar */
+.close {
+    color: black;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }

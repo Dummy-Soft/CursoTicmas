@@ -17,8 +17,8 @@ document.addEventListener('click', function(){
     document.getElementById("demo").innerHTML = "Segundo Evento en JavaScript (Click en cualquier parte)";
 })
  */
-
-document.getElementById("boton").addEventListener('click', function(){
+    var boton = document.getElementById("boton")
+    boton.addEventListener('click', function(){
     console.log("eventlistener ON")
     document.getElementById("demo").innerHTML = "Tercer Evento en JavaScript (Click en boton eventlistener)";
 })  
