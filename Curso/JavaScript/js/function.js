@@ -30,8 +30,17 @@ document.getElementById("boton_color").addEventListener('click', function(){
 document.getElementById("boton_default").addEventListener('click', function(){
     document.body.style.backgroundColor = 'blue'
     document.getElementById("demo").innerHTML = "Cambio de Contenido en HTML con JavaScript";
+    document.getElementById('demo').style.display ='';
     console.log("Todo como estaba")
 })
 
+document.getElementById("boton_ocultar").addEventListener('click', function(){
+    document.getElementById('demo').style.display = 'none';
+})
 
+const collection = document.getElementsByClassName('parrafo');
+for (let i = 0; collection.length; i++) {
+    collection[i].style.backgroundColor = "green";
+    collection[i].style.color = "white";
+}
 
