@@ -4,13 +4,12 @@
     background-color: #d1cfcb;
     overflow: auto;
 }
-#textoencabezado {
+.textoencabezado {
     color: black;
     font-size: 70px;
     font-weight: bold;
-    display:flex;
-    justify-content: center;
-    align-items: center;    
+    text-align: center;
+    padding-top: 30px;
 }    
 /**Seccion de Datos Personales, Sobre Mi y Educacion**/
 section{
@@ -129,8 +128,9 @@ section{
     text-decoration: none;
     cursor: pointer;
 }
+/* Seccion de las Exp y Ref */
 .experienciaYreferencias {
-    padding: 5px 5px 5px 5px;
+    padding: 25px 5px 5px 5px;
     background-color: #d1cfcb;
     overflow: auto;
     text-align: center;
@@ -144,4 +144,11 @@ section{
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+/*Pie de Pagina*/
+#piepagina {
+    padding-top: 50px;
+    font-weight: bold;
+    font-family: "Brush Script MT", "Lucida Handwriting", Cursive;
+    text-align: right;
 }
